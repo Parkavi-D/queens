@@ -1,0 +1,100 @@
+.navbar {
+  overflow: hidden;
+  background-color:#ff1a75 ;
+  border-radius: 5px 5px 5px 0;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+   border-radius: 5px 5px 5px 5px;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  font-family: system-ui;
+  color:#ffffff ;
+  padding: 14px 16px;
+  background-color: inherit;
+ 
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+
+  background-color:darkblue;
+}
+
+.dropdown-content {
+  
+  display: none;
+  position: absolute;
+  background-color:darkblue ;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+   border-radius: 5px 5px 5px 5px;
+
+}
+
+.dropdown-content a {
+  font-family:https://fonts.google.com/specimen/Labrada ;
+  float: none;
+  color:whitesmoke;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:darkcyan;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+<div class="row">
+      <div class="column" style="background-color:#111111b3; border-radius: 0px 0px 0px 5px;" >
+      <h1 style="color:white;align-items: center;" class="container zone red">News and Events</h1><marquee direction = "up" onmouseover="this.stop();" onmouseout="this.start();">
+      <h4 style="color: white;"><a href="Sports.jpg" style="text-decoration: none;">Sports Meet-2k22</h4>
+      <h4 style="color: blue;"><a href="22.jpg" style="text-decoration: none;">COVID-19 Vaccination Camp</h4>
+      <h4 style="color: red;"><a href="33.jpg" style="text-decoration: none;">University Rank Holders-2022</h4>
+      <h4 style="color: blue;"><a href="Physics Seminar.jpeg" style="text-decoration: none;">Seminar Organized by Department of Physics</h4>
+      <h4 style="color: red;"><a href="111.jpg" style="text-decoration: none;">NSS Camp</h4>
+      <h4 style="color: blue;"><a href="Womens Day.jpg" style="text-decoration: none;">Women's Day Celebration</h4></marquee>
+
+
+      </div>
+      <div class="column" style="background-color:#111111b3; border-radius: 0px 0px 5px 0px;">
+      <h2 style="color:white;align-items: center;"class="container zone red">PHOTO GALLERY</h2><marquee width="50%" direction="up" height="300px" onmouseover="this.stop();" onmouseout="this.start();">
+      <h4 style="color: blue;" ><a href="slide1.jpg" style="text-decoration: none;">Library photo Gallery</a></h4>
+      <h4 style="color: blue;">Sports Ground Photo Gallery</h4>
+      <h4 style="color: blue;"><a href="img7.jpg" style="text-decoration:none;">Lab Infrastructure Photo Gallery</a></h4></marquee>
+
+
+
+
+
+
+
+
+
+
